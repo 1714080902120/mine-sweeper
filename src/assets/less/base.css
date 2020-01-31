@@ -1,0 +1,19 @@
+html {
+  padding: 0px;
+  margin: 0px;
+}
+html body {
+  margin: 0px 100px;
+  background-color: #fff;
+  font-size: 24px;
+}
+@media screen and (max-width: 927px) {
+  html body {
+    margin: 0px 80px;
+  }
+}
+@media screen and (max-width: 400px) {
+  html body {
+    margin: 0px 50px;
+  }
+}
