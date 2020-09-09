@@ -89,8 +89,6 @@ export default {
               This.$refs.col[a][b].className += ' zero'
               toJudge(a, b)
             }
-            console.log(This.clickTimes)
-            console.log(This.table[i1][i2].state)
           }
         }
       }
@@ -108,7 +106,6 @@ export default {
               for (let i = 0; i < length; i++) {
                 arr[i] = this.$refs.col.splice(0, length)
               }
-              console.log(this.save)
               this.$refs.col = arr
             }
             // 显示所有的雷 游戏结束
@@ -161,8 +158,6 @@ export default {
                 toJudge(i1, i2)
                 break
             }
-            console.log(This.clickTimes)
-            console.log(This.table[i1][i2].state)
             // 赢得情况 根据显示次数来判断
             if (this.clickTimes === length * length - len) {
               // 显示所有的雷 游戏结束
